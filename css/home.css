@@ -1,26 +1,57 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(32, 30, 30);
+    background-color: rgb(29, 33, 238);
+}
+
+
+#titulo{
+    color: #fffcfc;
+    font-weight: bold;
 }
 .img-branco{
     width: 35px;
     height: auto;
 }
-#data-hora{
-    color: rgb(255, 255, 255);
-    font-size: 11px;
+
+#resultadoDoJs{
+    text-align: center;
 }
 
-#resultados{
-    padding: 10px;
-    margin: 10px;
+#quadrados-container {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .linha-quadrados {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: 10px; /* Espaçamento entre as linhas de quadrados */
+  }
+
+
+  #resultados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Define a altura para ocupar a tela inteira verticalmente */
+    background-color: rgb(29, 33, 238);
 }
+
+#resultados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 50%; /* Defina a largura para ocupar metade da tela */
+    background-color: rgb(29, 33, 238);
+}
+
+
 .caixa {
     margin: 10px;
-    background-color: #e11d48;
+    background-color: #a7304a;
     width: 50px; /* Ajuste o tamanho do quadrado conforme necessário */
     height: 50px; /* Ajuste o tamanho do quadrado conforme necessário */
     display: flex;
@@ -57,4 +88,9 @@ body{
 .branco{
     background-color: #fffcfc;
 
+}
+.hora{
+    color: #fffcfc;
+    font-weight: bold;
+    font-size: 0.8rem;
 }
