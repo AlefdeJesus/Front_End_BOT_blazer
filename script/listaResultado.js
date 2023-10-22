@@ -37,7 +37,7 @@ function listaResultado() {
   
             divRow.appendChild(divResultado);
   
-            if (divRow.childElementCount >= 5) {
+            if (divRow.childElementCount >= 8) {
               gridContainer.appendChild(divRow);
               divRow = document.createElement('div');
               divRow.className = 'linha-quadrados';

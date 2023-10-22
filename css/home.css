@@ -1,13 +1,25 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(29, 33, 238);
+    background-color: rgb(150, 151, 206);
+
 }
 
-
+#container-sinais{
+    align-items: center;
+    height:100%; 
+    background-color: rgb(240, 185, 185);
+    padding-left: 20px;
+}
+#container1{
+    background-color: rgb(240, 185, 185);
+}
 #titulo{
     color: #fffcfc;
     font-weight: bold;
+    align-items: start;
+    font-size: 1.5rem;
+  
 }
 .img-branco{
     width: 35px;
@@ -29,24 +41,6 @@ body{
     flex-wrap: nowrap;
     margin-right: 10px; /* Espaçamento entre as linhas de quadrados */
   }
-
-
-  #resultados {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Define a altura para ocupar a tela inteira verticalmente */
-    background-color: rgb(29, 33, 238);
-}
-
-#resultados {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50%;
-    width: 50%; /* Defina a largura para ocupar metade da tela */
-    background-color: rgb(29, 33, 238);
-}
 
 
 .caixa {
