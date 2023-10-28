@@ -1,6 +1,6 @@
 # Lembrando o front end esta bem simples já que estava focado no back end e não na estetica do site.
 
-# FrontEnd do BOT Blazer
+# Front end do BOT Blazer
 
 Este repositório contém o código-fonte de um simples front end para o projeto BOT Blazer, um projeto que demonstra o consumo de uma API para busca de informações sobre classes no site Blaze.
 
@@ -17,6 +17,6 @@ Para iniciar o front end, siga estas etapas:
 ## Uma Demonstração do Projeto
 * Aqui está uma captura de tela que mostra o projeto em ação:
 
-![Demonstração do Projeto]([URL_da_Imagem](https://i.ibb.co/mqz8dYH/Captura-de-tela-de-2023-10-28-10-16-38.png)https://i.ibb.co/mqz8dYH/Captura-de-tela-de-2023-10-28-10-16-38.png)
+![Demonstração do Projeto](https://i.ibb.co/mqz8dYH/Captura-de-tela-de-2023-10-28-10-16-38.png)
 
 
